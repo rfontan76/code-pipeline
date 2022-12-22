@@ -5,6 +5,8 @@ phases:
     commands:
       - npm install -g npm
       - npm install
+      - npm i @aws-cdk/core
+
   build:
     commands:
       - npm run build

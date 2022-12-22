@@ -8,5 +8,5 @@ const app = new cdk.App();
 new PipelineStack(app, "PipelineStack", {});
 new BillingStack(app, "BillingStack", {
   budgetAmount: 5,
-  emailAddress: "gtofig@hotmail.com",
+  emailAddress: "rodrigo1.fontan@gmail.com",
 });
